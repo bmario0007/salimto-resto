@@ -7,7 +7,7 @@ const Experience = () => {
       <div 
         className="absolute inset-0 z-0 opacity-40 bg-cover bg-center bg-fixed"
         style={{
-          backgroundImage: "url('/salimto-resto/gallery/img-15.jpg')",
+          backgroundImage: "url('/gallery/img-15.jpg')",
         }}
       ></div>
       
