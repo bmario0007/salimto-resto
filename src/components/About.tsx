@@ -42,7 +42,7 @@ const About = () => {
           <div className="lg:w-1/2 relative">
             <div className="absolute -inset-4 bg-brand-gold/20 rounded-2xl transform rotate-3"></div>
             <img 
-              src="/gallery/img-11.jpg" 
+              src="/salimto-resto/gallery/img-11.jpg" 
               alt="Restaurant Salimto" 
               className="relative rounded-2xl shadow-xl w-full h-auto object-cover aspect-[4/3]"
             />
