@@ -10,7 +10,7 @@ const Footer = () => {
           
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center mb-4">
-              <img src="/logo.jpg" alt="Salimto Resto Logo" className="h-12 w-12 rounded-full object-cover border-2 border-brand-gold bg-white" />
+              <img src="/salimto-resto/logo.jpg" alt="Salimto Resto Logo" className="h-12 w-12 rounded-full object-cover border-2 border-brand-gold bg-white" />
               <span className="ml-3 font-serif font-bold text-xl tracking-wider">SALIMTO</span>
             </div>
             <p className="text-brand-sand text-sm leading-relaxed mb-6">

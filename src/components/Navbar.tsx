@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center cursor-pointer">
             <Link to="home" smooth={true} duration={500}>
-              <img src="/logo.jpg" alt="Salimto Resto Logo" className="h-12 w-12 rounded-full object-cover border-2 border-brand-gold" />
+              <img src="/salimto-resto/logo.jpg" alt="Salimto Resto Logo" className="h-12 w-12 rounded-full object-cover border-2 border-brand-gold" />
             </Link>
             <span className={`ml-3 font-serif font-bold text-xl tracking-wider ${scrolled ? 'text-brand-brown' : 'text-brand-light drop-shadow-md'}`}>
               SALIMTO

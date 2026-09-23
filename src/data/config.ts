@@ -60,13 +60,13 @@ export const menuData = {
 
 // Placeholder images for the gallery
 export const galleryImages = [
-  "/gallery/img-1.jpg",
-  "/gallery/img-2.jpg",
-  "/gallery/img-3.jpg",
-  "/gallery/img-4.jpg",
-  "/gallery/img-5.jpg",
-  "/gallery/img-6.jpg",
-  "/gallery/img-7.jpg",
-  "/gallery/img-8.jpg",
-  "/gallery/img-9.jpg"
+  "/salimto-resto/gallery/img-1.jpg",
+  "/salimto-resto/gallery/img-2.jpg",
+  "/salimto-resto/gallery/img-3.jpg",
+  "/salimto-resto/gallery/img-4.jpg",
+  "/salimto-resto/gallery/img-5.jpg",
+  "/salimto-resto/gallery/img-6.jpg",
+  "/salimto-resto/gallery/img-7.jpg",
+  "/salimto-resto/gallery/img-8.jpg",
+  "/salimto-resto/gallery/img-9.jpg"
 ];
