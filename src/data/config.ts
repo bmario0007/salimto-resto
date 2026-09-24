@@ -21,9 +21,9 @@ export const menuData = {
       id: "entrees",
       name: "Entrées",
       items: [
-        { name: "Fataya", description: "Beignets farcis avec sauce", price: 1500 },
-        { name: "Nems", description: "Rouleaux croustillants, servis avec sauce", price: 2000 },
-        { name: "Pastels au poisson", description: "Chaussons farcis au poisson avec sauce oignon", price: 2500 },
+        { name: "Fataya", description: "Beignets farcis avec sauce", price: null },
+        { name: "Nems", description: "Rouleaux croustillants, servis avec sauce", price: null },
+        { name: "Pastels au poisson", description: "Chaussons farcis au poisson avec sauce oignon", price: null },
       ]
     },
     {
@@ -41,7 +41,7 @@ export const menuData = {
       items: [
         { name: "Poulet entier", description: "Poulet entier braisé ou rôti", price: 9000 },
         { name: "1/2 poulet", description: "Demi-poulet braisé ou rôti", price: 4500 },
-        { name: "Poisson grillé du jour", description: "Pêche du jour marinée et grillée au feu de bois", price: 6000 },
+        { name: "Poisson grillé du jour", description: "Pêche du jour marinée et grillée au feu de bois", price: null },
       ]
     },
     {
@@ -51,7 +51,7 @@ export const menuData = {
         { name: "Jus d'Orange frais", description: "Jus pressé maison", price: 1500 },
         { name: "Jus de Tamarin", description: "Jus local rafraîchissant", price: 1500 },
         { name: "Jus de Citron", description: "Citronnade maison", price: 1500 },
-        { name: "Boisson Soda", description: "Canettes (Coca-Cola, Sprite, Fanta, etc.)", price: 1000 },
+        { name: "Boisson Soda", description: "Canettes (Coca-Cola, Sprite, Fanta, etc.)", price: null },
       ]
     }
   ]

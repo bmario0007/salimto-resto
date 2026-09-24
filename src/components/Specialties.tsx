@@ -40,9 +40,7 @@ const Specialties = () => {
                   alt={item.name} 
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute top-4 right-4 bg-brand-light text-brand-brown font-bold px-3 py-1 rounded-full shadow-md">
-                  {item.price} FCFA
-                </div>
+                {item.price && <div className="absolute top-4 right-4 bg-brand-light text-brand-brown font-bold px-3 py-1 rounded-full shadow-md">{item.price} FCFA</div>}
               </div>
               <div className="p-6">
                 <h4 className="font-serif text-2xl text-brand-brown mb-2">{item.name}</h4>

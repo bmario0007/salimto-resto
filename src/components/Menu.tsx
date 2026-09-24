@@ -43,7 +43,7 @@ const Menu = () => {
                     <div className="flex justify-between items-baseline mb-2">
                       <h4 className="font-serif text-xl font-bold text-brand-brown">{item.name}</h4>
                       <div className="flex-grow border-b-2 border-dotted border-brand-sand mx-4 relative top-[-6px]"></div>
-                      <span className="font-bold text-brand-gold whitespace-nowrap">{item.price} FCFA</span>
+                      {item.price && <span className="font-bold text-brand-gold whitespace-nowrap">{item.price} FCFA</span>}
                     </div>
                     <p className="text-gray-600 text-sm">{item.description}</p>
                   </div>
