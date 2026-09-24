@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, ChefHat, Sun, Users } from 'lucide-react';
 
 const reasons = [

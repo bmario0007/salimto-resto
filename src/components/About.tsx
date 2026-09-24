@@ -1,4 +1,3 @@
-import React from 'react';
 import { Waves, Utensils, Heart } from 'lucide-react';
 
 const About = () => {

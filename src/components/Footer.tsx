@@ -1,4 +1,3 @@
-import React from 'react';
 import { restaurantConfig } from '../data/config';
 import { Link } from 'react-scroll';
 

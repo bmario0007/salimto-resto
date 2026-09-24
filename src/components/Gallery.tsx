@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { galleryImages } from '../data/config';
 import { X } from 'lucide-react';
 

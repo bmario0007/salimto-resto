@@ -30,7 +30,7 @@ export const menuData = {
       id: "plats-senegalais",
       name: "Plats",
       items: [
-        { name: "Riz au poisson (Thiéboudienne)", description: "Le plat national. Riz parfumé, poisson et légumes.", price: 4000 },
+        { name: "Riz au poisson (Thiéboudjeune)", description: "Le plat national. Riz parfumé, poisson et légumes.", price: 4000 },
         { name: "Yassa Poulet", description: "Poulet mariné au citron et oignons, servi avec riz blanc.", price: 4000 },
         { name: "C'est bon", description: "Plat savoureux de la maison", price: 3000 },
       ]

@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 const specialtiesData = [
   {
     name: "Riz au Poisson",
-    description: "Le fameux Thiéboudienne. Riz au poisson parfumé, légumes mijotés.",
+    description: "Le fameux Thiéboudjeune. Riz au poisson parfumé, légumes mijotés.",
     image: "/salimto-resto/gallery/img-12.jpg",
     price: 4000
   },

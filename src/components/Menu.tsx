@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { menuData } from '../data/config';
 
 const Menu = () => {
