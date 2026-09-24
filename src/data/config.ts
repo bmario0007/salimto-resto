@@ -21,38 +21,37 @@ export const menuData = {
       id: "entrees",
       name: "Entrées",
       items: [
+        { name: "Fataya", description: "Beignets farcis avec sauce", price: 1500 },
+        { name: "Nems", description: "Rouleaux croustillants, servis avec sauce", price: 2000 },
         { name: "Pastels au poisson", description: "Chaussons farcis au poisson avec sauce oignon", price: 2500 },
-        { name: "Accras de niébé", description: "Beignets de haricots locaux avec sauce piquante", price: 2000 },
-        { name: "Salade fraîcheur", description: "Tomates, concombres, avocat et mangue", price: 3000 },
       ]
     },
     {
       id: "plats-senegalais",
-      name: "Plats Sénégalais",
+      name: "Plats",
       items: [
-        { name: "Thiéboudienne", description: "Le plat national. Riz au poisson, légumes frais (carottes, choux, manioc, aubergines), sauce tomate et tamarin.", price: 5000, image: "https://images.unsplash.com/photo-1604329760661-e71c0c144ce1?auto=format&fit=crop&q=80&w=1000" },
-        { name: "Yassa Poulet", description: "Poulet mariné au citron et oignons, grillé puis mijoté, servi avec du riz blanc.", price: 4500, image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&q=80&w=1000" },
-        { name: "Yassa Poisson", description: "Poisson frais mariné au citron et oignons, servi avec du riz blanc.", price: 5000 },
-        { name: "Mafé Viande", description: "Viande de bœuf mijotée dans une onctueuse sauce à la pâte d'arachide, avec pommes de terre et carottes.", price: 4500 },
+        { name: "Riz au poisson (Thiéboudienne)", description: "Le plat national. Riz parfumé, poisson et légumes.", price: 4000 },
+        { name: "Yassa Poulet", description: "Poulet mariné au citron et oignons, servi avec riz blanc.", price: 4000 },
+        { name: "C'est bon", description: "Plat savoureux de la maison", price: 3000 },
       ]
     },
     {
-      id: "grillades",
-      name: "Grillades & Poissons",
+      id: "volailles",
+      name: "Volailles & Grillades",
       items: [
+        { name: "Poulet entier", description: "Poulet entier braisé ou rôti", price: 9000 },
+        { name: "1/2 poulet", description: "Demi-poulet braisé ou rôti", price: 4500 },
         { name: "Poisson grillé du jour", description: "Pêche du jour marinée et grillée au feu de bois", price: 6000 },
-        { name: "Brochettes de lotte", description: "Lotte fraîche marinée aux épices douces", price: 7000 },
-        { name: "Poulet rôti braisé", description: "Demi-poulet braisé à la sénégalaise", price: 5000 },
       ]
     },
     {
       id: "boissons",
-      name: "Jus Naturels",
+      name: "Boissons & Jus",
       items: [
-        { name: "Bissap", description: "Jus de fleurs d'hibiscus", price: 1000 },
-        { name: "Bouye", description: "Jus de pain de singe (fruit du baobab)", price: 1500 },
-        { name: "Ditakh", description: "Jus de ditakh frais", price: 1500 },
-        { name: "Gingembre", description: "Jus de gingembre ananas", price: 1500 },
+        { name: "Jus d'Orange frais", description: "Jus pressé maison", price: 1500 },
+        { name: "Jus de Tamarin", description: "Jus local rafraîchissant", price: 1500 },
+        { name: "Jus de Citron", description: "Citronnade maison", price: 1500 },
+        { name: "Boisson Soda", description: "Canettes (Coca-Cola, Sprite, Fanta, etc.)", price: 1000 },
       ]
     }
   ]

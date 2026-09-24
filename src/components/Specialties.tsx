@@ -1,24 +1,23 @@
-import React from 'react';
 import { Link } from 'react-scroll';
 
 const specialtiesData = [
   {
-    name: "Thiéboudienne",
-    description: "Le plat national. Riz au poisson parfumé, légumes mijotés.",
+    name: "Riz au Poisson",
+    description: "Le fameux Thiéboudienne. Riz au poisson parfumé, légumes mijotés.",
     image: "/salimto-resto/gallery/img-12.jpg",
-    price: 5000
+    price: 4000
   },
   {
     name: "Yassa Poulet",
     description: "Poulet mariné au citron et oignons, servi avec riz blanc.",
     image: "/salimto-resto/gallery/img-13.jpg",
-    price: 4500
+    price: 4000
   },
   {
-    name: "Poisson Grillé",
-    description: "Pêche du jour marinée et grillée au feu de bois.",
+    name: "Poulet Entier",
+    description: "Délicieux poulet braisé ou rôti, parfait pour partager.",
     image: "/salimto-resto/gallery/img-14.jpg",
-    price: 6000
+    price: 9000
   },
 ];
 
