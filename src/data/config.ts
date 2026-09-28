@@ -18,40 +18,95 @@ export const restaurantConfig = {
 export const menuData = {
   categories: [
     {
-      id: "entrees",
-      name: "Entrées",
+      id: "specialites",
+      name: "Nos Spécialités",
       items: [
-        { name: "Fataya", description: "Beignets farcis avec sauce", price: null },
-        { name: "Nems", description: "Rouleaux croustillants, servis avec sauce", price: null },
-        { name: "Pastels au poisson", description: "Chaussons farcis au poisson avec sauce oignon", price: null },
+        { name: "Gambas", description: "", price: 8000 },
+        { name: "Dorade gm", description: "Dorade grand modèle", price: 7000 },
+        { name: "Dorade pm", description: "Dorade petit modèle", price: 4500 },
+        { name: "Dorade vip", description: "Dorade VIP", price: 10000 },
+        { name: "Crevettes sautées", description: "", price: 4500 },
+        { name: "Filet de lotte", description: "", price: 4500 },
+        { name: "Brochette de lotte", description: "", price: 4500 },
+        { name: "Thiof", description: "", price: 7000 },
+        { name: "Lotte grillé", description: "", price: 4500 },
       ]
     },
     {
-      id: "plats-senegalais",
-      name: "Plats",
+      id: "poulet-riz-yassa",
+      name: "Poulet, Riz & Yassa",
       items: [
-        { name: "Riz au poisson (Thiéboudjeune)", description: "Le plat national. Riz parfumé, poisson et légumes.", price: 4000 },
-        { name: "Yassa Poulet", description: "Poulet mariné au citron et oignons, servi avec riz blanc.", price: 4000 },
-        { name: "C'est bon", description: "Plat savoureux de la maison", price: 3000 },
+        { name: "Poulet grillé (entier)", description: "", price: 9000 },
+        { name: "Demi poulet grillé", description: "", price: 4500 },
+        { name: "Riz au poisson", description: "Le fameux Thiéboudjeune", price: 3000 },
+        { name: "Yassa poulet", description: "", price: 4000 },
+        { name: "Yassa poisson", description: "", price: 3000 },
       ]
     },
     {
-      id: "volailles",
-      name: "Volailles & Grillades",
+      id: "accompagnements",
+      name: "Accompagnements",
       items: [
-        { name: "Poulet entier", description: "Poulet entier braisé ou rôti", price: 9000 },
-        { name: "1/2 poulet", description: "Demi-poulet braisé ou rôti", price: 4500 },
-        { name: "Poisson grillé du jour", description: "Pêche du jour marinée et grillée au feu de bois", price: null },
+        { name: "Frites", description: "", price: 1500 },
+        { name: "Légumes sautés", description: "", price: 1500 },
+        { name: "Alloco", description: "Bananes plantains frites", price: 1500 },
+        { name: "Riz blanc", description: "", price: 1500 },
       ]
     },
     {
-      id: "boissons",
-      name: "Boissons & Jus",
+      id: "boissons-chaudes",
+      name: "Boissons Chaudes",
       items: [
-        { name: "Jus d'Orange frais", description: "Jus pressé maison", price: 1500 },
-        { name: "Jus de Tamarin", description: "Jus local rafraîchissant", price: 1500 },
-        { name: "Jus de Citron", description: "Citronnade maison", price: 1500 },
-        { name: "Boisson Soda", description: "Canettes (Coca-Cola, Sprite, Fanta, etc.)", price: null },
+        { name: "Café Touba", description: "", price: 100 },
+        { name: "Café au lait", description: "", price: 500 },
+        { name: "Thé", description: "", price: "GRATUIT" },
+        { name: "Lait chaud", description: "", price: 500 },
+        { name: "Chocolat chaud", description: "", price: 500 },
+        { name: "Gingembre chaud", description: "", price: 500 },
+      ]
+    },
+    {
+      id: "jus-locaux",
+      name: "Jus Locaux (Naturels)",
+      items: [
+        { name: "Bissap blanc", description: "", price: 1000 },
+        { name: "Bissap rouge", description: "", price: 1000 },
+        { name: "Bouye", description: "", price: 1000 },
+        { name: "Ditakh", description: "", price: 1000 },
+        { name: "Ditakas", description: "", price: 1000 },
+        { name: "Orange", description: "", price: 1000 },
+        { name: "Moringa", description: "", price: 1000 },
+        { name: "Tamarin", description: "", price: 1000 },
+        { name: "Gingembre", description: "", price: 1000 },
+        { name: "Baabab", description: "", price: 1000 },
+      ]
+    },
+    {
+      id: "jus-classiques",
+      name: "Jus Classiques",
+      items: [
+        { name: "Jus d'orange", description: "", price: 1500 },
+        { name: "Jus d'ananas", description: "", price: 1500 },
+        { name: "Jus de pomme", description: "", price: 1500 },
+        { name: "Jus de mangue", description: "", price: 1500 },
+        { name: "Jus de citron", description: "", price: 1500 },
+        { name: "Jus cocktail", description: "", price: 1500 },
+      ]
+    },
+    {
+      id: "canettes-eaux",
+      name: "Canettes & Eaux",
+      items: [
+        { name: "Coca Cola", description: "", price: 1000 },
+        { name: "Coca Cola Zéro", description: "", price: 1000 },
+        { name: "Fanta", description: "", price: 1000 },
+        { name: "Sprite", description: "", price: 1000 },
+        { name: "Bissap", description: "", price: 1000 },
+        { name: "Ginger", description: "", price: 1000 },
+        { name: "Schweppes", description: "", price: 1000 },
+        { name: "Eau minérale (50cl)", description: "", price: 500 },
+        { name: "Eau minérale (1,5L)", description: "", price: 1000 },
+        { name: "Sirop à l'eau", description: "", price: 500 },
       ]
     }
   ]

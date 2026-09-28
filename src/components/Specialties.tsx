@@ -5,17 +5,17 @@ const specialtiesData = [
     name: "Riz au Poisson",
     description: "Le fameux Thiéboudjeune. Riz au poisson parfumé, légumes mijotés.",
     image: "/salimto-resto/gallery/img-12.jpg",
-    price: 4000
+    price: 3000
   },
   {
-    name: "Yassa Poulet",
-    description: "Poulet mariné au citron et oignons, servi avec riz blanc.",
+    name: "Dorade VIP",
+    description: "Une magnifique dorade grillée au feu de bois, spécialité de la maison.",
     image: "/salimto-resto/gallery/img-13.jpg",
-    price: 4000
+    price: 10000
   },
   {
-    name: "Poulet Entier",
-    description: "Délicieux poulet braisé ou rôti, parfait pour partager.",
+    name: "Poulet Grillé (entier)",
+    description: "Délicieux poulet entier grillé, parfait pour partager.",
     image: "/salimto-resto/gallery/img-14.jpg",
     price: 9000
   },
@@ -40,7 +40,11 @@ const Specialties = () => {
                   alt={item.name} 
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
-                {item.price && <div className="absolute top-4 right-4 bg-brand-light text-brand-brown font-bold px-3 py-1 rounded-full shadow-md">{item.price} FCFA</div>}
+                {item.price && (
+                  <div className="absolute top-4 right-4 bg-brand-light text-brand-brown font-bold px-3 py-1 rounded-full shadow-md">
+                    {item.price} FCFA
+                  </div>
+                )}
               </div>
               <div className="p-6">
                 <h4 className="font-serif text-2xl text-brand-brown mb-2">{item.name}</h4>
