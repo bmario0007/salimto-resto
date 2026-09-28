@@ -3,7 +3,7 @@ export const restaurantConfig = {
   phone: "76 767 84 84",
   whatsappNumber: "221767678484", // Format international sans le +
   address: "Saly, Sénégal — Plage de Safari",
-  googleMapsLink: "https://maps.google.com/?q=Saly+Senegal", // À mettre à jour
+  googleMapsLink: "https://share.google/Yf8Fwvg9nemX0kc1G",
   socials: {
     facebook: "#", // À mettre à jour
     instagram: "#", // À mettre à jour
