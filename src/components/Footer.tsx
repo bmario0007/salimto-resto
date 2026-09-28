@@ -50,11 +50,11 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-brand-gold text-lg mb-4">Suivez-nous</h4>
             <div className="flex space-x-4">
-              <a href={restaurantConfig.socials.facebook} className="w-10 h-10 rounded-full bg-brand-light/10 flex items-center justify-center hover:bg-brand-gold transition-colors">
+              <a href={restaurantConfig.socials.facebook} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-light/10 flex items-center justify-center hover:bg-brand-gold transition-colors font-bold">
                 Fb
               </a>
-              <a href={restaurantConfig.socials.instagram} className="w-10 h-10 rounded-full bg-brand-light/10 flex items-center justify-center hover:bg-brand-gold transition-colors">
-                Ig
+              <a href={restaurantConfig.socials.tiktok} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-light/10 flex items-center justify-center hover:bg-brand-gold transition-colors font-bold">
+                Tk
               </a>
             </div>
           </div>

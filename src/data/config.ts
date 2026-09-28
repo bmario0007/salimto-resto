@@ -5,8 +5,8 @@ export const restaurantConfig = {
   address: "Saly, Sénégal — Plage de Safari",
   googleMapsLink: "https://share.google/Yf8Fwvg9nemX0kc1G",
   socials: {
-    facebook: "#", // À mettre à jour
-    instagram: "#", // À mettre à jour
+    facebook: "https://www.facebook.com/p/Salimto-Resto-Saly-61594086201685/",
+    tiktok: "https://www.tiktok.com/@thiernondiaye075", // Lien vers le profil
   },
   openingHours: {
     weekdays: "11:00 - 23:00",
